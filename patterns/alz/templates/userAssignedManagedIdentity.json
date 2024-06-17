@@ -27,7 +27,7 @@
     "variables": {},
     "resources": [
         {
-            "type": "Microsoft.Resources/deployments",
+            "typse": "Microsoft.Resources/deployments",
             "apiVersion": "2021-04-01",
             "name": "[concat('amba-', parameters('uamiName'))]",
             "properties": {
