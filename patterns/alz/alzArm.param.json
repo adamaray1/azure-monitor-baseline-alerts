@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "alz-nav-canary"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "alz-nav-canary-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "alz-nav-canary-platform-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "alz-nav-canary-platform-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "alz-nav-canary-platform-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "alz-nav-canary-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -57,10 +57,10 @@
       "value": ""
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "dev-cus-amba-monitoring-rg"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "centralus"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -68,7 +68,7 @@
       }
     },
     "ALZMonitorActionGroupEmail": {
-      "value": ""
+      "value": "adam.ray@navistar.com"
     },
     "ALZLogicappResourceId": {
       "value": ""

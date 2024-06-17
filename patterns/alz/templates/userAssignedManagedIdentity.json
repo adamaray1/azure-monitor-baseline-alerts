@@ -4,7 +4,7 @@
     "parameters": {
         "uamiName": {
             "type": "string",
-            "defaultValue": "id-amba-prod-001",
+            "defaultValue": "id2-amba-prod-001",
             "metadata": {
                 "description": "The name of the user assigned managed identity to be created for monitoring purpose."
             }
