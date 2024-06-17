@@ -27,22 +27,15 @@
     "variables": {},
     "resources": [
         {
-            "typse": "Microsoft.Resources/deployments",
+            "type": "Microsoft.Resources/deployments",
             "apiVersion": "2021-04-01",
             "name": "[concat('amba-', parameters('uamiName'))]",
             "properties": {
                 "mode": "Incremental",
                 "template": {
-                    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+                    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
                     "contentVersion": "1.0.0.0",
-                    "parameters": {
-                        "uamiName": {
-                            "type": "string"
-                        },
-                        "uamiLocation": {
-                            "type": "string"
-                        }
-                    },
+                    "parameters": {},
                     "variables": {},
                     "resources": [
                         {
@@ -54,16 +47,7 @@
                                 "_deployed_by_amba": true
                             }
                         }
-                    ],
-                    "outputs": {}
-                },
-                "parameters": {
-                    "uamiName": {
-                        "value": "[parameters('uamiName')]"
-                    },
-                    "uamiLocation": {
-                        "value": "[parameters('uamiLocation')]"
-                    }
+                    ]
                 }
             },
             "resourceGroup": "[parameters('uamiResourceGroupName')]"
